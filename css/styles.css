@@ -1,0 +1,141 @@
+/* BACKGROUND */
+
+
+body {
+background-color: hsl(212, 45%, 89%);
+}
+
+
+
+/* SECTIONS */
+
+#qr-code {
+}
+
+
+
+/* QRCODE BLOCK */
+
+.main-block {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    margin: 160px auto;
+    padding: 15px 0 35px;
+    text-align: center;
+    width: 20%;
+}
+
+
+/* IMAGE */
+
+.main-block img {
+    border-radius: 16px;
+    width: 90%;
+}
+
+
+
+/* TEXT */
+
+/* header */
+
+.main-block h3 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 10%;
+}
+
+/* PARAGRAPH */
+
+.main-block p {
+    color: hsl(220, 15%, 55%);
+    font-size: 1rem;
+    padding: 0 15%;
+}
+
+
+/* FOOTER TEXT */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* DEVICE: TABLET */
+
+/* MAIN BLOCK */
+
+@media screen and (max-device-width: 1024px) {
+    .main-block{
+        border-radius: 60px;
+        margin: 125px auto;
+        padding: 35px 0 40px;
+        width: 80%;
+    }
+
+/* IMAGE*/
+
+    .main-block img {
+        border-radius: 60px;
+    }
+
+    /* TEXT */
+
+    /*HEADER*/
+
+    .main-block h3 {
+        font-size: 4rem;
+        padding: 0 5%;
+    }
+
+    /* PARAGRAPH */
+
+    .main-block p {
+        font-size: 3.5rem;
+        padding: 0 5%;
+    }
+}
+
+
+/* DEVICE: PHONE */
+
+/* MAIN BLOCK */
+
+@media screen and (max-device-width: 700px) {
+    .main-block{
+        border-radius: 10px;
+        margin: 65px auto;
+        padding: 15px 0 40px;
+        width: 85%;
+    }
+
+/* IMAGE*/
+
+    .main-block img {
+        border-radius: 10px;
+    }
+
+    /* TEXT */
+
+    /*HEADER*/
+
+    .main-block h3 {
+        font-size: 1.5rem;
+        padding: 0 5%;
+    }
+
+    /* PARAGRAPH */
+
+    .main-block p {
+        font-size: 1rem;
+        padding: 0 5%;
+    }
+}
